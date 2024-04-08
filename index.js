@@ -19,7 +19,8 @@ function generate(){
     let finalBlock = filteredBlocks[Math.floor(Math.random()*filteredBlocks.length)]
     finalBlock.textContent = num;
 }
-generate()
+generate();
+generate();
 function shiftArrayLeft(values){
     let finalArray = values.filter((a) => a != 0)
     let index = finalArray.length;
